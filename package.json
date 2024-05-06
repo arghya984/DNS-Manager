@@ -2,8 +2,8 @@
   "name": "DNS-Manager",
   "version": "1.0.0",
   "scripts": {
-   "install": "concurrently \"cd front-end && npm install\" \"cd back-end && npm install\""
-   "dev": "concurrently \"cd front-end && npm start\" \"cd back-end && node index.js\""
+    "install": "concurrently \"cd front-end && npm install\" \"cd back-end && npm install\"",
+    "dev": "concurrently \"cd front-end && npm start\" \"cd back-end && node index.js\""
   },
   "dependencies": {
     "axios": "^1.6.8",
