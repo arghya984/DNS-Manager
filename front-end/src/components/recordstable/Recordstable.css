@@ -1,0 +1,76 @@
+.records-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .table-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .records-table th,
+  .records-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+
+  .records-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+ .add-record-button{
+  margin-bottom: 20px;
+ }
+  
+ 
+  .delete-button,
+  .update-button {
+    padding: 8px 12px;
+    margin-right: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .delete-button:hover,
+  .update-button:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+  }
+
+  .search-input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  
