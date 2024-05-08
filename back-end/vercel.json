@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "backend/index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/dns-records",
+        "methods": ["POST", "GET", "DELETE"],
+        "dest": "/backend/index.js"
+      }
+    ]
+  }
+  
