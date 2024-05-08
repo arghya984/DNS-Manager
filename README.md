@@ -15,11 +15,12 @@ DNS Manager is a web application designed to automate the management of domains 
 To run this project locally, follow these steps:
 
 1. Clone the repository: git clone https://github.com/arghya984/DNS-Manager
-2. Navigate to front-end folder and run command: npm install
-3. to start the front end, run Command: npm start
-4. navigate to back-end folder and run command: node index.js
+2. Navigate to root directory
+3. Run Command: npm install
+4. Run Command: npm run install
+5. Run Command: npm run dev
 
-- The backend and the front end part of the project should be running now.
+-The backend and the front end part of the project should be running now.
 
 ## Usage
 
