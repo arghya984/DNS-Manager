@@ -10,7 +10,7 @@
       {
         "src": "/dns-records",
         "methods": ["POST", "GET", "DELETE"],
-        "dest": "/backend/index.js"
+        "dest": "./index.js"
       }
     ]
   }
