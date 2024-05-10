@@ -55,7 +55,9 @@ app.post('/dns-records', async (req, res) => {
     res.status(500).json({ message: err });
   }
 });
-
+app.get('/', (req, res) => {
+  res.send('Hello world');
+});
 // Read DNS records
 app.get('/dns-records', async (req, res) => {
   const params = {
