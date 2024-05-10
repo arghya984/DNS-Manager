@@ -7,11 +7,11 @@ const cors = require('cors');
 dotenv.config();
 
 const PORT = process.env.PORT || 8080;
-const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
-const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
-const AWS_REGION = process.env.AWS_REGION;
-const HOSTED_ZONE_ID = process.env.HOSTED_ZONE_ID;
 
+const AWS_ACCESS_KEY_ID=AKIAZI2LB4IOZ7ZSVMTU
+const AWS_SECRET_ACCESS_KEY=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
+const AWS_REGION=ap-south-2
+const HOSTED_ZONE_ID=Z089959822IPWQ2BL77KC
 
 //initializing a new Route 53 client instance
 const route53 = new AWS.Route53({
@@ -19,6 +19,8 @@ const route53 = new AWS.Route53({
   secretAccessKey: AWS_SECRET_ACCESS_KEY,
   region: AWS_REGION
 });
+
+
 
 // middle ware
 app.use(express.json());
